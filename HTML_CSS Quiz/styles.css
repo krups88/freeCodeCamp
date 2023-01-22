@@ -1,3 +1,10 @@
+@media (prefers-reduced-motion: no-preference){
+  * {
+  scroll-behavior: smooth;
+}
+}
+
+
 body {
   background: #f5f6f7;
   color: #1b1b32;
@@ -150,7 +157,21 @@ button {
   border: 3px solid #3b3b4f;
 }
 
+footer {
+  background-color: #2a2a40;
+  display: flex;
+  justify-content: center;
+}
 
+footer,
+footer a {
+  color: #dfdfe2;
+}
+
+address {
+  text-align: center;
+  padding: 0.3em;
+}
 
 .sr-only {
   position: absolute;
