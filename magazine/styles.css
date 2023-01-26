@@ -44,7 +44,12 @@ main {
     grid-column: 1/-1;
     position: relative;
 }
-.img {
+img {
     width: 100%;
     object-fit: cover;
+}
+.hero-title {
+    text-align: center;
+    color: orangered;
+    font-size: 8rem;
 }
