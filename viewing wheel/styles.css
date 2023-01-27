@@ -76,3 +76,12 @@
     right: 17%;
     top: 7%;
 }
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
