@@ -88,6 +88,11 @@ body {
     position: absolute;
 }
 
+.penguin:active {
+    transform: scale(1.5);
+    cursor: not-allowed;
+}
+
 .penguin-body::before {
     content:"";
     position: absolute;
@@ -231,6 +236,10 @@ body {
     left: 5%;
     transform-origin: top left;
     transform: rotate(130deg) scaleX(-1);
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .arm.right {
