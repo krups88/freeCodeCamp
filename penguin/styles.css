@@ -29,6 +29,8 @@ body {
     margin-top: 75px;
     z-index: 4;
     position: relative;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in-out;
 }
 
 .left-mountain {
