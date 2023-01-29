@@ -1,0 +1,155 @@
+1 -- css
+
+<style>
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+
+.container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    /* Змініть код лише під цим рядком */
+    grid-template-columns: 100px 100px 100px;
+    /* Змініть код лише над цим рядком */
+}
+</style>
+
+<div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</div>
+
+
+2 ---- css
+
+<style>
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+
+.container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    /* Змініть код лише під цим рядком */
+    grid-template-rows: 50px 50px;
+
+    /* Змініть код лише над цим рядком */
+}
+</style>
+
+<div class="container">
+    <div class="d1">1</div>
+    <div div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</div>
+
+3 --- css
+
+<style>
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+
+.container {
+    font-size: 40px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    /* Змініть код лише під цим рядком */
+
+    grid-template-columns: 1fr 100px 2fr;
+
+    /* Змініть код лише над цим рядком */
+    grid-template-rows: 50px 50px;
+}
+</style>
+
+<div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</div>
+
+4 ---- css
+
+
+<style>
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Змініть код лише під цим рядком */
+    grid-column-gap: 20px;
+
+    /* Змініть код лише над цим рядком */
+}
+</style>
+
+<div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</div>
+
+5 ---- css 
+
+<style>
+.d1{background:LightSkyBlue;}
+.d2{background:LightSalmon;}
+.d3{background:PaleTurquoise;}
+.d4{background:LightPink;}
+.d5{background:PaleGreen;}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Змініть код лише під цим рядком */
+    grid-row-gap:5px;
+
+    /* Змініть код лише над цим рядком */
+}
+</style>
+
+<div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</div>
+
+6 ---- css
+
