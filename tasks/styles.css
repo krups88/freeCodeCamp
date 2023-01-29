@@ -1,0 +1,53 @@
+1-----tasks
+
+<style>
+p {
+    font-size: 20px;
+}
+
+  /* Only change code below this line */
+@media (max-height: 800px){
+p {
+    font-size: 10px;
+}
+  /* Only change code above this line */
+</style>
+
+
+2---- tasks
+<style>
+.responsive-img {}
+img {
+    max-width: 100%;
+    eight:auto;
+}
+</style>
+
+<img class="responsive-img" src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+
+3----- tasks
+
+<style>
+    img{
+    height: 100px:;
+    width: 100px;
+    }
+</style>
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickers-CamperBot200x200.jpg" alt="freeCodeCamp sticker that says 'Because CamperBot Cares'">
+
+4-----tasks
+
+<style>
+.h2 {
+    width:80vw;
+}
+.p {
+    width:75vmin;
+}
+</style>
+<h2>Importantus Ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis tempus massa. Aenean erat nisl, gravida vel vestibulum cursus, interdum sit amet lectus. Sed sit amet quam nibh. Suspendisse quis tincidunt nulla. In hac habitasse platea dictumst. Ut sit amet pretium nisl. Vivamus vel mi sem. Aenean sit amet consectetur sem. Suspendisse pretium, purus et gravida consequat, nunc ligula ultricies diam, at aliquet velit libero a dui.</p>
+
+
+
