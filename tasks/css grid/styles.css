@@ -252,3 +252,104 @@
 </div>
 
 9 --- css 
+<style>
+.item1{background: LightSkyBlue;}
+.item2 {
+    background: LightSalmon;
+    /* Змініть код лише під цим рядком */
+    justify-self:center;
+    /* Змініть код лише над цим рядком */
+}
+
+.item3{background:PaleTurquoise;}
+.item4{background:LightPink;}
+.item5{background:PaleGreen;}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+</style>
+
+<div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+</div>
+
+10 --- css
+
+<style>
+.item1{background:LightSkyBlue;}
+.item2{background:LightSalmon;}
+
+.item3 {
+    background: PaleTurquoise;
+    /* Змініть код лише під цим рядком */
+    align-self: end;
+
+    /* Змініть код лише над цим рядком */
+}
+
+.item4{background:LightPink;}
+.item5{background:PaleGreen;}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+</style>
+
+<div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+</div>
+
+11 --- css
+
+<style>
+.item1{background:LightSkyBlue;}
+.item2{background:LightSalmon;}
+.item3{background:PaleTurquoise;}
+.item4{background:LightPink;}
+.item5{background:PaleGreen;}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /* Змініть код лише під цим рядком */
+    justify-items:center;
+
+    /* Змініть код лише над цим рядком */
+}
+</style>
+
+<div class="container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+    <div class="item5">5</div>
+</div>
+
+12 ---- css 
