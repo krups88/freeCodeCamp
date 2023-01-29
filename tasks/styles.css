@@ -1,3 +1,4 @@
+/*
 1-----tasks
 
 <style>
@@ -5,12 +6,10 @@ p {
     font-size: 20px;
 }
 
-  /* Only change code below this line */
 @media (max-height: 800px){
 p {
     font-size: 10px;
 }
-  /* Only change code above this line */
 </style>
 
 
@@ -858,7 +857,7 @@ flex:1 1 150px;
 </div>
 
 
-20 ---- tasks
+20 ---- tasks  */
 
 <style>
 .d1{background:LightSkyBlue;}
