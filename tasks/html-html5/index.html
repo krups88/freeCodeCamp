@@ -1,6 +1,18 @@
 <style>
-    .penguin {
+    :root {
       --penguin-skin: gray;
+      --penguin-belly: white;
+      --penguin-beak: orange;
+    }
+  
+    body {
+      background: var(--penguin-belly, #c6faf1);
+    }
+  
+    .penguin {
+      /* Змініть код лише під цим рядком */
+   --penguin-belly: white;
+      /* Змініть код лише над цим рядком */
       position: relative;
       margin: auto;
       display: block;
@@ -9,14 +21,37 @@
       height: 300px;
     }
   
+    .right-cheek {
+      top: 15%;
+      left: 35%;
+      background: var(--penguin-belly, pink);
+      width: 60%;
+      height: 70%;
+      border-radius: 70% 70% 60% 60%;
+    }
+  
+    .left-cheek {
+      top: 15%;
+      left: 5%;
+      background: var(--penguin-belly, pink);
+      width: 60%;
+      height: 70%;
+      border-radius: 70% 70% 60% 60%;
+    }
+  
+    .belly {
+      top: 60%;
+      left: 2.5%;
+      background: var(--penguin-belly, pink);
+      width: 95%;
+      height: 100%;
+      border-radius: 120% 120% 100% 100%;
+    }
+  
     .penguin-top {
       top: 10%;
       left: 25%;
-  
-      /* Змініть код під цим рядком */
-      background: var(--penguin-skin);
-      /* Змініть код над цим рядком */
-  
+      background: var(--penguin-skin, gray);
       width: 50%;
       height: 45%;
       border-radius: 70% 70% 60% 60%;
@@ -25,11 +60,7 @@
     .penguin-bottom {
       top: 40%;
       left: 23.5%;
-  
-      /* Змініть код під цим рядком */
-      background: var(--penguin-skin);
-      /* Змініть код над цим рядком */
-  
+      background: var(--penguin-skin, gray);
       width: 53%;
       height: 45%;
       border-radius: 70% 70% 100% 100%;
@@ -38,11 +69,7 @@
     .right-hand {
       top: 0%;
       left: -5%;
-  
-      /* Змініть код під цим рядком */
-      background:var(--penguin-skin);
-      /* Змініть код над цим рядком */
-  
+      background: var(--penguin-skin, gray);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 120% 30%;
@@ -53,11 +80,7 @@
     .left-hand {
       top: 0%;
       left: 75%;
-  
-      /* Змініть код під цим рядком */
-      background: var(--penguin-skin);
-      /* Змініть код над цим рядком */
-  
+      background: var(--penguin-skin, gray);
       width: 30%;
       height: 60%;
       border-radius: 30% 30% 30% 120%;
@@ -65,37 +88,10 @@
       z-index: -1;
     }
   
-    .right-cheek {
-      top: 15%;
-      left: 35%;
-      background: white;
-      width: 60%;
-      height: 70%;
-      border-radius: 70% 70% 60% 60%;
-    }
-  
-    .left-cheek {
-      top: 15%;
-      left: 5%;
-      background: white;
-      width: 60%;
-      height: 70%;
-      border-radius: 70% 70% 60% 60%;
-    }
-  
-    .belly {
-      top: 60%;
-      left: 2.5%;
-      background: white;
-      width: 95%;
-      height: 100%;
-      border-radius: 120% 120% 100% 100%;
-    }
-  
     .right-feet {
       top: 85%;
       left: 60%;
-      background: orange;
+      background: var(--penguin-beak, orange);
       width: 15%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -106,7 +102,7 @@
     .left-feet {
       top: 85%;
       left: 25%;
-      background: orange;
+      background: var(--penguin-beak, orange);
       width: 15%;
       height: 30%;
       border-radius: 50% 50% 50% 50%;
@@ -162,7 +158,7 @@
     .beak-top {
       top: 60%;
       left: 40%;
-      background: orange;
+      background: var(--penguin-beak, orange);
       width: 20%;
       height: 10%;
       border-radius: 50%;
@@ -171,14 +167,10 @@
     .beak-bottom {
       top: 65%;
       left: 42%;
-      background: orange;
+      background: var(--penguin-beak, orange);
       width: 16%;
       height: 10%;
       border-radius: 50%;
-    }
-  
-    body {
-      background:#c6faf1;
     }
   
     .penguin * {
