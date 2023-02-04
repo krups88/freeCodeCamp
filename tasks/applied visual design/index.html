@@ -1,29 +1,23 @@
-<head>
-  <style>
-    #left {
-      float:left;
-      width: 50%;
-    }
-    #right {
-      float:right;
-      width: 40%;
-    }
-    aside, section {
-      padding: 2px;
-      background-color: #ccc;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Welcome!</h1>
-  </header>
-  <section id="left">
-    <h2>Content</h2>
-    <p>Good stuff</p>
-  </section>
-  <aside id="right">
-    <h2>Sidebar</h2>
-    <p>Links</p>
-  </aside>
-</body>
+<style>
+  div {
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .first {
+    background-color: red;
+    position: absolute;
+    z-index:2;
+  }
+  .second {
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    z-index: 1;
+  }
+</style>
+
+<div class="first"></div>
+<div class="second"></div>
