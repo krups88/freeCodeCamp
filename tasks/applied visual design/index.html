@@ -1,30 +1,21 @@
 <style>
-  div {
-    height: 40px;
-    width: 70%;
-    background: black;
-    margin: 50px auto;
+  button {
     border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
   }
 
-  #rect {
-      animation-name: rainbow;
-      animation-duration: 4s;
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
   }
-
-@keyframes rainbow {
-  0% {
-    background-color:blue;
-  }
-  50% {
-    background-color:green;
-  }
+@keyframes background-color {
   100% {
-    background-color: yellow;
+    background-color:#4791d0;
   }
 }
 
-
-
 </style>
-<div id="rect"></div>
+
+<button>Register</button>
