@@ -1,6 +1,6 @@
 <style>
 
-  .balls {
+  .balls{
     border-radius: 50%;
     background: linear-gradient(
       35deg,
@@ -16,11 +16,12 @@
     animation-iteration-count: infinite;
   }
   #ball1 {
-  animation-timing-function:linear;
+    left: 27%;
+    animation-timing-function: cubic-bezier(.25, .25, .75, .75);
   }
   #ball2 {
-    left:56%;
-  animation-timing-function:easy-out;
+    left: 56%;
+    animation-timing-function: ease-out;
   }
 
   @keyframes bounce {
