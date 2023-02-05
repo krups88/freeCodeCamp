@@ -1,35 +1,28 @@
 <style>
-  div {
-    height: 40px;
-    width: 70%;
-    background: black;
+
+  #ball {
+    width: 70px;
+    height: 70px;
     margin: 50px auto;
-    border-radius: 5px;
-    position: relative;
+    position: fixed;
+    left: 20%;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: fade;
+    animation-duration: 3s;
   }
 
-  #rect {
-    animation-name: rainbow;
-    animation-duration: 4s;
-  }
-
-  @keyframes rainbow {
-    0% {
-      background-color: blue;
-      top: 0px;
-      left:0px;
-    }
+  @keyframes fade {
     50% {
-      background-color: green;
-      top: 50px;
-      left:25px;
-    }
-    100% {
-      background-color: yellow;
-      top: 0px;
-      left: -25px;
+      left: 60%;
+      opacity:0.1;
     }
   }
+
 </style>
 
-<div id="rect"></div>
+<div id="ball"></div>
